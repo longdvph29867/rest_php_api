@@ -18,7 +18,7 @@
     }
     $id = $parts[3] ?? null;
 
-    $database = new Database("localhost", "product_db", "root", "");
+    $database = new Database("sql107.byethost5.com", "b5_34178224_product_db", "b5_34178224", "Long@12345");
     $database->getConnection();
 
     $gateway = new ProductGateway($database);
